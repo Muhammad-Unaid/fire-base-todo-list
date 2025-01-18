@@ -1,66 +1,69 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image: url(https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
+  font-family: Arial, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/62/39/4d/62394d753859943e6a1a36443ef78795.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    padding: 20px;
-    text-align: center;
-  }
-  
-  #app {
-    max-width: 500px;
-    margin: auto;
-    background: #ffffff72;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(20, 69, 229, 0.992);
-  }
-  
-  #todo-form input {
-    width: 70%;
-    padding: 10px;
-    margin-right: 10px;
-  }
-  
-  #todo-form button {
-    padding: 10px;
-  }
-  
-  #todo-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .todo-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .todo-item button {
-    margin-left: 5px;
-    border-radius: 0 10px 0 10px;
-    
-    padding: 5px 13px 5px 13px;
-    border: none;
-  }
-  #newBtn{
-     border-radius: 10px;
-     border: none;
-     padding: 5px 15px 5px 15px;
-     font-weight: bolder;
+  padding: 20px;
+  text-align: center;
+}
 
-  }
+#app {
+  max-width: 500px;
+  margin: auto;
+  background: #ffffff72;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(20, 69, 229, 0.992);
+}
 
-  
+#todo-form input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 18px 0 0 18px;
+}
 
+#todo-form button {
+  padding: 10px;
+}
 
+#todo-list {
+  list-style: none;
+  padding: 0;
+}
 
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bolder;
+}
 
+.todo-item button {
+  margin-left: 5px;
+  border-radius: 0 10px 0 10px;
+  cursor: pointer;
+  padding: 5px 13px 5px 13px;
+  border: none;
+  box-shadow: 0 0 10px rgba(20, 69, 229, 0.992);
+}
+#newBtn{
+    border-radius: 0  18px 18px 0;
+   
+   padding: 5px 15px 5px 15px;
+   font-weight: bolder; 
+   cursor: pointer;
+   box-shadow: 0 0 10px rgb(0, 0, 0);
+}
 
 
 
 
-  
+
+
+
+
+
+
